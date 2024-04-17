@@ -1,4 +1,4 @@
-Writing a good README file is crucial for ensuring that anyone who comes across your project understands what it does, how to use it, and how to contribute to it. Here's a basic outline you can follow:
+
 
 ---
 
@@ -8,15 +8,15 @@ This project is a backend system designed to help restaurant owners monitor the 
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Data Sources](#data-sources)
-- [System Requirements](#system-requirements)
-- [API Requirement](#api-requirement)
-- [Considerations/Evaluation Criteria](#considerations-evaluation-criteria)
-- [Contributing](#contributing)
-- [License](#license)
+- Installation
+- Usage
+- Endpoints
+- Data Sources
+- System Requirements
+- API Requirement
+- Considerations/Evaluation Criteria
+- Contributing
+
 
 ## Installation
 
@@ -34,6 +34,10 @@ pip install -r requirements.txt
 ```
 
 3. Set up the database and import the provided CSV data.
+Here is the link for the dataset.
+[https://drive.google.com/drive/folders/1qRE_QcfDWFhTL_OWEQkbWgEsdSCF1P0m?usp=drive_link]
+Take this data folder and paste it in the directory where run.py is there.
+The data folder has three files in it.
 
 ## Usage
 
@@ -58,11 +62,12 @@ The project relies on three main sources of data:
 3. Timezone data for the stores in CSV format.
 
 These CSV files are provided and should be imported into the database before using the APIs.
+[https://drive.google.com/drive/folders/1qRE_QcfDWFhTL_OWEQkbWgEsdSCF1P0m?usp=drive_link]
 
 ## System Requirements
 
 - Python 3.x
-- Relevant database (e.g., PostgreSQL, MySQL)
+- Relevant database (PostgreSQL)
 - Internet connection for periodic data updates
 
 ## API Requirement
