@@ -23,7 +23,7 @@ This project is a backend system designed to help restaurant owners monitor the 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/store-monitoring-backend.git
+git clone https://github.com/paramw20/Store-Monitoring.git
 ```
 
 2. Install dependencies:
